@@ -106,7 +106,7 @@ def main(meshes, current_directory, chunk_size, padding):
                 print(f"Task generated an exception: {e}")
 
 if __name__ == "__main__":
-    obj_path = "/Volumes/16TB_RAID_0/Scroll1/segments/objs" #path to folder with obj files
+    obj_path = "/Volumes/16TB_RAID_0/Scroll1/segments/objs" #Change path to folder with obj files
     obj_files = get_file_names(obj_path)
     print(obj_files)
     meshes = []
