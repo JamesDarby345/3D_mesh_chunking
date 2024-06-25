@@ -15,6 +15,7 @@ conda install -c conda-forge numpy trimesh scipy
 ```
 Note that pip wasnt working for trimesh so I installed the dependencies with conda
 
+Also change the path to the folder with the .obj files you would like to chunk in the main function, and set the chunk size, and pad size you would like to use. The chunk size sets teh size of the cubes to chunk to, and the pad sets teh additional overlap between cubes to maintain more coherence around the edges of the cubes due to the nature of the .obj meshes.
 
 ## Resulting cube of chunked .obj files visualised in khartes:
 <img width="681" alt="Screenshot 2024-04-06 at 6 00 36 PM" src="https://github.com/JamesDarby345/3D_mesh_chunking/assets/49734270/24fb1aab-eeb1-41b5-9f47-28d3098d2cc8">
